@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>About Us Animation</title>
+	<!-- Bootstap -->
+    <link rel="stylesheet" type="text/css" href="libs/bootstrap/css/bootstrap.min.css">
+    <!-- Fontawsome -->
+    <link rel="stylesheet" type="text/css" href="libs/fontawesomepro/css/all.min.css">
+
+</head>
+<style type="text/css">
+	/*Start Team Animation Section(cho and nay yi)*/
+    .container-team{
+
+    }
+
+    .btn-team{
+        font-size: 16px;
+        font-weight: bold;
+        padding: 16px 50px;
+
+        position: relative;
+    }
+    .btn-team::before{
+        content: '';
+        width: 24px;
+        height: 24px;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        border-top: 1px solid #111111;;
+        border-right: 1px solid #111111;;
+
+        transition: all 0.5s;
+    }
+
+    .btn-team::after{
+        content: '';
+        width: 24px;
+        height: 24px;
+
+        position: absolute;
+        left: 0;
+        bottom: 0;
+
+        border-left: 1px solid #111111;;
+        border-bottom: 1px solid #111111;;
+
+        transition: all 0.5s;
+    }
+    .btn-team:hover::before,
+    .btn-team:hover::after{
+        width: 100%;
+        height: 100%;
+    }
+
+    .container-1{
+         background-image: url("libs/img/team/team-1.jpg");
+         background-repeat: no-repeat;
+         background-size: 100%;
+    }
+
+
+    /*End Team Animation Section(cho and nay yi)*/
+</style>
+<body>
+
+
+<section>
+    <div class="container-team">
+        <div class="row">
+            <div class="col-md-6">
+                <p>Our Team</p>
+                <h1>MEET OUR TEAM</h1>
+            </div>
+            <div class="col-md-6">
+                <a href="#" class="btn btn-team text-dark">View All</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+	    <div class="row">
+	            <div class="container-1 col-md-4">
+	                <div class="caption-1">
+	                    <h3>Dolores Webster<br/>
+	                        CEO & Founder</h3>
+	                    <p>Vestibulum dapibus odio quam, sit amet hendrerit dui ultricies consectetur. Ut viverra porta leo,
+	                        non
+	                        tincidunt mauris condimentum eget. Vivamus non turpis elit. Aenean ultricies nisl sit amet.</p>
+	                    <div class="icon">
+	                        <a href="#"><i class="fa fa-facebook fa-lg text-light"></i></a>
+	                        <a href="#"><i class="fa fa-twitter fa-lg text-light"></i></a>
+	                        <a href="#"><i class="fa fa-instagram fa-lg text-light"></i></a>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="container-2 col-md-4">
+	                <div class="caption-2">
+	                    <h3>Dana Vaughn<br/>
+	                        Architect</h3>
+	                    <p>Vestibulum dapibus odio quam, sit amet hendrerit dui ultricies consectetur. Ut viverra porta leo,
+	                        non
+	                        tincidunt mauris condimentum eget. Vivamus non turpis elit. Aenean ultricies nisl sit amet.
+	                        Aenean
+	                        ultricies nisl sit amet.</p>
+	                    <div class="icon">
+	                        <a href="#"><i class="fa fa-facebook fa-lg text-light"></i></a>
+	                        <a href="#"><i class="fa fa-twitter fa-lg text-light"></i></a>
+	                        <a href="#"><i class="fa fa-instagram fa-lg text-light"></i></a>
+	                    </div>
+	                </div>
+	            </div>
+
+	            <div class="container-3 col-md-4">
+	                <div class="caption-3">
+	                    <h3>Jonathan Mcdaniel<br/>
+	                        Architect</h3>
+	                    <p>Vestibulum dapibus odio quam, sit amet hendrerit dui ultricies consectetur. Ut viverra porta leo,
+	                        non
+	                        tincidunt mauris condimentum eget. Vivamus non turpis elit. Aenean ultricies nisl sit amet.</p>
+	                    <div class="icon">
+	                        <a href="#"><i class="fa fa-facebook fa-lg text-light"></i></a>
+	                        <a href="#"><i class="fa fa-twitter fa-lg text-light"></i></a>
+	                        <a href="#"><i class="fa fa-instagram fa-lg text-light"></i></a>
+	                    </div>
+	                </div>
+	</div>      </div>
+    </div>
+
+</section>
+
+
+
+<link rel="stylesheet" type="text/javastript" href="libs/bootstrap/js/bootstrap.min.js">
+  <link rel="stylesheet" type="text/css" href="libs/bootstrap/js/popper.min.js">
+</body>
+</html>
